@@ -18,8 +18,7 @@ import { ArticleListComponent } from './article-list/article-list';
         ArticleThumbListComponent,
         ArticleListComponent
     ],
-    providers: [
-    ],
+    providers: [],
 })
-export class FooterModule { }
+export class ArticleModule { }
 export { ArticleListInter } from './article-list/article-list';

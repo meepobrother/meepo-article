@@ -1,4 +1,16 @@
 ## qrcode for angular
+
+```ts
+import { ArticleModule } from 'meepo-article';
+
+@NgModule({
+  imports: [
+    ArticleModule
+  ]
+})
+export class AppModule { }
+```
+
 ```ts
 import { ArticleListInter } from 'meepo-article';
 export class AppComponent {
