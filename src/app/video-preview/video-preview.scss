@@ -1,0 +1,24 @@
+.btn-play {
+    background: url("./03.png") no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.icon-loading {
+    background: url("./04.png") no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: turn .5s linear infinite;
+    animation: turn .5s linear infinite;
+    display: none;
+}
+
+.icon-loading,
+.btn-play {
+    position: absolute;
+    z-index: 5;
+    width: 51px;
+    height: 51px;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}

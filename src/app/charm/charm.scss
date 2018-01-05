@@ -1,0 +1,52 @@
+charm {
+    position: relative;
+    display: block;
+    .content {
+        position: relative;
+        width: 100%;
+        min-height: 200px;
+        background: #fff;
+        .charm-item {
+            position: relative;
+            float: left;
+            width: 48%;
+            height: 90px;
+            margin: 1%;
+            box-sizing: border-box;
+            color: #fff;
+            border-radius: 4px;
+            .item-icon {
+                position: absolute;
+                width: 46px;
+                height: 46px;
+                right: 10px;
+                top: 50%;
+                border: 2px solid #fff;
+                border-radius: 25px;
+                background-size: 100% 100%;
+                transform: translate(0, -50%);
+            }
+            .desc {
+                position: absolute;
+                top: 50%;
+                left: 10px;
+                width: 60%;
+                transform: translate(0, -50%);
+                .charm-name {
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 18px;
+                }
+                .buluo-name {
+                    font-size: 12px;
+                    margin-top: 4px;
+                    line-height: 12px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    max-width: 94%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<div class="content">
+    <div class="charm-item" *ngFor="let item of items" [style.background]="item.color">
+        <div class="desc">
+            <p class="charm-name">{{item.title}}</p>
+            <p class="buluo-name">{{item.desc}}</p>
+        </div>
+        <div class="item-icon" [style.background-image]="'url('+item.image+')'"></div>
+    </div>
+</div>

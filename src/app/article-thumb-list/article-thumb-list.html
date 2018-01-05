@@ -3,6 +3,7 @@
 </div>
 <div class="img-wrap clearfix">
     <div class="feed-img img-ph" *ngFor="let item of widget.images">
-        <img [src]="item">
+        <img [src]="item.src" *ngIf="item.type === 'image'">
+        <video-preview *ngIf="item.type === 'video'"></video-preview>
     </div>
 </div>
